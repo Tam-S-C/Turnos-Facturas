@@ -16,7 +16,6 @@ const CONFIG = {
         "CAMI P."
     ],
 
-    // Feriados nacionales (modificá esta lista cuando quieras)
     feriados: [
         "17/08/2026",
         "12/10/2026",
@@ -44,10 +43,7 @@ const colores = {
 
 };
 
-
-// =====================================
 // REFERENCIAS HTML
-// =====================================
 
 const listaPersonas=document.getElementById("listaPersonas");
 
@@ -59,10 +55,7 @@ const contador=document.getElementById("contador");
 
 const hero=document.querySelector(".hero");
 
-
-// =====================================
 // UTILIDADES
-// =====================================
 
 function convertirFecha(texto){
 
@@ -160,10 +153,7 @@ function formatearFecha(fecha){
 }
 
 
-
-// =====================================
 // GENERAR TURNOS
-// =====================================
 
 const turnos=[];
 
@@ -219,9 +209,7 @@ while(fecha.getFullYear()==anio){
 
 
 
-// =====================================
 // BUSCAR PRÓXIMO TURNO
-// =====================================
 
 const hoy=new Date();
 
@@ -279,9 +267,9 @@ if(proximo){
 
 }
 
-// =====================================
+
 // CREAR TARJETAS
-// =====================================
+
 
 CONFIG.personas.forEach(persona=>{
 
@@ -354,10 +342,7 @@ CONFIG.personas.forEach(persona=>{
 });
 
 
-
-// =====================================
 // ACORDEONES
-// =====================================
 
 document.querySelectorAll(".cabecera").forEach(cabecera=>{
 
@@ -390,12 +375,7 @@ document.querySelectorAll(".cabecera").forEach(cabecera=>{
 
 });
 
-
-
-
-// =====================================
-// EFECTO SUAVE AL PASAR EL MOUSE
-// =====================================
+//mouse efecto
 
 document.querySelectorAll(".persona").forEach(card=>{
 
@@ -414,10 +394,7 @@ document.querySelectorAll(".persona").forEach(card=>{
 });
 
 
-
-// =====================================
-// SI YA NO QUEDAN TURNOS ESTE AÑO
-// =====================================
+// mensaje fin de año
 
 if(!proximo){
 
