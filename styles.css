@@ -1,3 +1,7 @@
+/* ===========================
+   RESET
+=========================== */
+
 *{
     margin:0;
     padding:0;
@@ -249,7 +253,7 @@ header{
 
 
 /* ===========================
-   TARJETAS individuales
+   TARJETAS
 =========================== */
 
 .persona{
@@ -492,6 +496,7 @@ footer{
 
 @media(max-width:700px){
 
+
 .banner{
 
     height:auto;
@@ -508,7 +513,8 @@ footer{
 
 .hero{
 
-    margin:25px 15px;
+
+    margin:25px 100px;
 
     padding:35px 25px;
 
