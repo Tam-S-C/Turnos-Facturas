@@ -511,14 +511,12 @@ footer{
 
 }
 
-.hero{
-
-
-    margin:25px 100px;
-
-    padding:35px 25px;
-
-}
+.hero {
+        margin: 25px auto;
+        padding: 35px 25px;
+        max-width: 300px;
+        width: 90%;
+    }
 
 #nombreActual{
 
