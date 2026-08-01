@@ -507,7 +507,7 @@ footer{
 
 .banner h1{
 
-    font-size:32px;
+    font-size:26px;
 
 }
 
@@ -515,7 +515,6 @@ footer{
         margin: 25px auto;
         padding: 35px 25px;
         max-width: 300px;
-        width: 90%;
     }
 
 #nombreActual{
