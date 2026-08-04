@@ -8,6 +8,7 @@ const CONFIG = {
 
     personas: [
         "MATI",
+        "NAHUEL",
         "MAU",
         "CLARA",
         "TAM",
@@ -34,6 +35,7 @@ const CONFIG = {
 const colores = {
 
     "MATI":"azul",
+    "NAHUEL":"gris",
     "MAU":"verde",
     "EZE":"turquesa",
     "CLARA":"naranja",
