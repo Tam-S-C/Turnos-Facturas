@@ -12,7 +12,7 @@ const CONFIG = {
         "MAU",
         "CLARA",
         "TAM",
-        "CAMI J",
+        "CAMI J.",
         "EZE",
         "CAMI P."
     ],
@@ -40,7 +40,7 @@ const colores = {
     "EZE":"turquesa",
     "CLARA":"naranja",
     "TAM":"lavanda",
-    "CAMI J":"amarillo",
+    "CAMI J.":"amarillo",
     "CAMI P.":"coral"
 
 };
