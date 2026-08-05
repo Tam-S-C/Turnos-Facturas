@@ -298,7 +298,7 @@ CONFIG.personas.forEach(persona=>{
             </div>
 
             <div class="toggle">
-                ⬇ 
+                ↓ 
             </div>
 
         </div>
@@ -361,7 +361,7 @@ document.querySelectorAll(".cabecera").forEach(cabecera=>{
 
             p.classList.remove("abierta");
 
-            p.querySelector(".toggle").textContent="+";
+            p.querySelector(".toggle").textContent="↓";
 
         });
 
@@ -369,7 +369,7 @@ document.querySelectorAll(".cabecera").forEach(cabecera=>{
 
             tarjeta.classList.add("abierta");
 
-            toggle.textContent="−";
+            toggle.textContent="⌃";
 
         }
 
