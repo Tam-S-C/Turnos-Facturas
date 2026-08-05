@@ -298,7 +298,7 @@ CONFIG.personas.forEach(persona=>{
             </div>
 
             <div class="toggle">
-                +
+                ⬇ 
             </div>
 
         </div>
