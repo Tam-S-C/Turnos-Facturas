@@ -90,7 +90,7 @@ const preferencias = {
 // frases
 
 const frases = [
-    '🥐 "Una buena reunión empieza con medialunas."',
+    '🥐 "Una buena reunión siempre empieza con medialunas."',
     '🧈 "Ante la duda, pastelera."',
     '☕ "No me hables si todavía no comí mi factura del día."',
     '🥐 "Mi productividad empieza después de la primera medialuna."',
