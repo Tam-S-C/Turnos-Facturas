@@ -554,3 +554,178 @@ footer{
 }
 
 }
+
+/* ===========================
+   PREFERENCIAS
+=========================== */
+
+.preferencias{
+
+    margin:10px 10px;
+
+    padding:15px 17px;
+
+    border-radius:15px;
+
+    background:#FFFDF7;
+
+    border:1px solid rgba(230,220,200,.45);
+
+}
+
+
+/* Título */
+
+.preferencias-titulo{
+
+    margin-bottom:9px;
+
+    font-size:12px;
+
+    font-weight:700;
+
+    letter-spacing:.7px;
+
+    color:#8A7968;
+
+}
+
+
+/* Lista */
+
+.listaPreferencias{
+
+    margin:0;
+
+    padding-left:24px;
+
+    color:#777;
+
+    font-size:13px;
+
+    line-height:1.55;
+
+}
+
+
+/* Cada preferencia */
+
+.listaPreferencias li{
+
+    padding:4px 3px;
+
+}
+
+
+/* Separación muy suave entre preferencias */
+
+.listaPreferencias li + li{
+
+    border-top:1px solid rgba(230,225,215,.5);
+
+    padding-top:8px;
+
+}
+
+
+/* =================================
+   CUANDO LA TARJETA ESTÁ ABIERTA
+================================= */
+
+.persona.abierta .preferencias{
+
+    animation:aparecerPreferencias .35s ease;
+
+}
+
+
+@keyframes aparecerPreferencias{
+
+    from{
+
+        opacity:0;
+
+        transform:translateY(-5px);
+
+    }
+
+    to{
+
+        opacity:1;
+
+        transform:translateY(0);
+
+    }
+
+}
+
+
+/* =================================
+   RESPONSIVE
+================================= */
+
+@media(max-width:700px){
+
+    .preferencias{
+
+        margin:10px 10px;
+
+        padding:14px 15px;
+
+    }
+
+    .listaPreferencias{
+
+        font-size:12px;
+
+        line-height:1.55;
+
+        padding-left:21px;
+
+    }
+
+}
+
+/* ===========================
+   FRASE DE LA SEMANA
+=========================== */
+
+#fraseSemana{
+
+    text-align:center;
+
+    max-width:700px;
+
+    margin:12px auto 4px;
+
+    padding:0 20px;
+
+    color:#8A7968;
+
+    font-size:14px;
+
+    font-weight:400;
+
+    font-style:italic;
+
+    line-height:1.5;
+
+    text-shadow:0 1px 4px rgba(138,121,104,.10);
+
+}
+
+/* responsive */
+
+@media(max-width:700px){
+
+    #fraseSemana{
+
+        font-size:13px;
+
+        padding:0 25px;
+
+        margin:10px auto 0;
+
+    }
+
+}
